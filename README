@@ -1,0 +1,16 @@
+El código a ejecutar es practica2.py
+Se debe ejecutar este código con Python3.6
+
+Los argumentos pasados por parametros son:
+
+python3.6 practica2.py numero_de_ciclos tamaño_poblacion tasa_mutacion funcion
+
+función puede tomar los valores  0 o 1, el valor 0 indica función qesf y el valor 1 es la función pi
+
+Si se quiere modificar la profundidad maxima inicial, se debera ir al código y en la parte de arriba
+donde estan declaradas las constantes debera modificarse la constante NIVELMAXIMO
+
+
+Si se quiere modificar la ventana de torneo debera ir a la llamada de la funcion tournament y modificar el segundo  parametro 
+
+Por pantalla se imprime: el número de ciclo, el menor fitness(junto a su individuo)y el tiempo que ha tardado entre ciclos
